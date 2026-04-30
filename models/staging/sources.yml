@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: final_project_local_bike
+    database: my-project-dbt-492812
+    schema: final_project_formation_data_bird
+    tables:
+      - name: brands
+      - name: categories
+      - name: customers
+      - name: order_items
+      - name: orders
+      - name: products
+      - name: staffs
+      - name: stocks
+      - name: stores
