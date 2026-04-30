@@ -1,6 +1,11 @@
 select
   f.order_id,
   f.order_date,
+  extract (  month from (f.order_date) ) as order_month,
+  extract ( year from (f.order_date) ) as order_year,
+
+
+
   f.product_id,
   f.store_id,
   f.quantity,
